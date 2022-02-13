@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #4d515d ;
+}
+
+.wrapper{
+    width: 1050px;
+    margin: 50px;
+    background: url(./img/side.jpg) no-repeat ;
+    background-position:  right top;
+    background-size: contain;
+    border-radius: 4px;
+    box-shadow: 0 6px 18px 2px rgba(0, 0, 0, .3);
+}
+
+.content{
+    width: 650px;
+    background-color: #fff;
+    border-radius: 4px 0 0 4px;
+}
+
+.content-main{
+    padding: 80px 60px 0;
+}
+
+.page-title{
+    font-size:40px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.page-text{
+    margin: 0;
+    color: aaa;
+}
+
+.page-top{
+    margin-bottom: 55px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8b8b8c;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #000;
+}
+
+.social-singup-link{
+    display: block;
+    padding: 20px;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: 20px  center;
+    
+}
+
+.social-singup-link:last-child{
+    margin-bottom: 60px;
+}
+
+.social-singup-link:hover{
+    border:  1px solid transparent;
+    box-shadow: 0 7px 12px 1px rgba(0,0,0,0.1);
+}
+
+.social-singup-link.google{
+    background-image: url(./img/googleplus.svg);
+    background-size: 20px;
+}
+
+.social-singup-link.facebook{
+    background-image: url(./img/facebook.svg);
+    background-size: 20px;
+}
+
+.social-singup-link.twitter{
+    background-image: url(./img/twitter.svg);
+    background-size: 20px;
+}
+
+.email-singup{
+    padding: 40px 60px;
+    border-top: 1px solid rgb(95, 95, 95);
+    overflow:hidden;
+}
+
+.email-singup-link{
+    float: right;
+}
+
+.email-singup-text{
+    margin: 0;
+    font-weight:bold ;
+}
